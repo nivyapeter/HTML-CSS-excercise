@@ -14,5 +14,9 @@ body {
 .container {
   border: 1px solid gray;
   padding-left:20px;
-  
+
+}
+.btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
