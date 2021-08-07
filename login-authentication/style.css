@@ -16,8 +16,16 @@ body {
   padding-left:20px;
   align-items: center;
 
+
 }
 .btn {
   margin-bottom: 10px;
   margin-top: 10px;
+ float:right;
+ margin:10px
+
+  
+}
+.input-control {
+  margin-top:10px;
 }
