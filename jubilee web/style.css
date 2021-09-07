@@ -59,3 +59,13 @@ body {
   font-size: 14px;
   outline:0;
 }
+.social-links a {
+  background :black;
+  width:20px;
+  height:20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 13px;
+  color: #851c85;
+}
