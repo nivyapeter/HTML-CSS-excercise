@@ -26,12 +26,36 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.logomain {
+  margin-right:66px;
+}
 .navbar {
   display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
  
 }
 .navbar-nav {
   flex-direction: row;
   list-style: none;
   display: flex;
+  text-decoration: none !important;
+}
+.nav-menu {
+  margin-right:10px;
+  text-decoration: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  font-family: poppins;
+  font-weight: 400;
+  padding-top:10px;
+  padding-right:8px;
+  padding-bottom:10px;
+  display: inline-block;
+  color:black;
+  font-size: 14px;
+  outline:0;
 }
