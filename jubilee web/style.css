@@ -40,7 +40,7 @@ body {
  
 }
 .navbar-nav {
-  /* flex-direction: row; */
+  flex-direction: row;
   list-style: none;
   display: flex;
   text-decoration: none !important;
