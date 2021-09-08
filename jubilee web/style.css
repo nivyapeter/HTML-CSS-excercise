@@ -12,9 +12,11 @@ body {
   position:relative;
 }
 #header {
-  position:absolute;
-  z-index: 997;
+  position:fixed;
+  z-index: 50;
   width:100%;
+  background-color: #efefef;
+  transition: all .5s;
 }
 .container {
   display:flex;
@@ -60,7 +62,7 @@ body {
   outline:0;
 }
 .social-links a {
-  background :black;
+  background :white;
   width:20px;
   height:20px;
   border-radius: 20px;
@@ -68,4 +70,12 @@ body {
   margin-right: 5px;
   font-size: 13px;
   color: #851c85;
+  float: left;
+}
+.fa-twitter ::before {
+  content : "\f099";
+}
+.fa {
+  display: inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
 }
