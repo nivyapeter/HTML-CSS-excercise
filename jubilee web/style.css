@@ -1,0 +1,81 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  background-color: #fff;
+  color:#444;
+  overflow-x: hidden !important;
+}
+.sticky-wrapper {
+  height:auto !important;
+  z-index:99;
+  position:relative;
+}
+#header {
+  position:fixed;
+  z-index: 50;
+  width:100%;
+  background-color: #efefef;
+  transition: all .5s;
+}
+.container {
+  display:flex;
+  align-items: center;
+  justify-content: left;
+  width:100%;
+  padding-right:15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logomain {
+  margin-right:66px;
+}
+.navbar {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.navbar-nav {
+  flex-direction: row;
+  list-style: none;
+  display: flex;
+  text-decoration: none !important;
+}
+.nav-menu {
+  margin-right:10px;
+  text-decoration: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  font-family: poppins;
+  font-weight: 400;
+  padding-top:10px;
+  padding-right:8px;
+  padding-bottom:10px;
+  display: inline-block;
+  color:black;
+  font-size: 14px;
+  outline:0;
+}
+.social-links a {
+  background :white;
+  width:20px;
+  height:20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 13px;
+  color: #851c85;
+  float: left;
+}
+.fa-twitter ::before {
+  content : "\f099";
+}
+.fa {
+  display: inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+}
