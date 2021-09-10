@@ -32,8 +32,8 @@ body {
   margin-right:66px;
 }
 .navbar {
-  /* display: flex !important;
-  flex-direction: row; */
+  display: flex !important;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
