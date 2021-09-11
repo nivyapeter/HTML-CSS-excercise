@@ -1,5 +1,7 @@
 * {
   box-sizing:border-box;
+  padding:0;
+  margin:0;
 }
 body {
   background-color: #fff;
@@ -93,8 +95,13 @@ body {
 }
 .banner_image_float img:nth-child(1) {
   top:45px;
-  transition-duration: 1s;
   position:absolute;
+  transform:rotate(50deg);
+  transition-duration: 1s;
+}
+.banner_image_float img:nth-child(1) :hover {
+  transition-duration: 1s;
+  transform:rotate(50deg);
 }
 .intro-carousel {
   display: block;
@@ -120,7 +127,7 @@ body {
   border-style: none;
 }
 .banner_image_float img:nth-child(2) {
-  top:45px;
+  top:249px;
   bottom:32px;
   transition-duration: 1s;
 }
