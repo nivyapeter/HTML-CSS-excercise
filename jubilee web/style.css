@@ -82,8 +82,8 @@ body {
   font:normal normal normal 14px/1 FontAwesome;
 }
 .banner_image_float {
-  /* position:absolute;
-  width:80%; */
+  position:absolute;
+  width:80%;
   margin:140px auto 0 10%;
   z-index:9;
 }
