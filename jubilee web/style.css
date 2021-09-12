@@ -89,7 +89,7 @@ body {
 }
 .banner_image_right {
   visibility:visible;
-  animation-name:fadeInRight;
+  /* animation-name:fadeInRight; */
   width:200px;
   border-style: none;
 }
