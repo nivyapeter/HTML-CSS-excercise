@@ -166,4 +166,25 @@ body {
 .content-container {
   color:white;
   position:absolute;
+  top: 181px;
+  left: 548px;
+}
+.heading-1 {
+  font-size: 30px;
+}
+.heading-2 {
+  font-size: 43px;
+  font-weight:400;
+  font-family: poppins;
+}
+.heading-3 {
+  font-weight: 400;
+  margin-top:10px;
+  text-decoration: underline;
+  font-family: poppins;
+}
+.content-container p {
+  font-size: 20px;
+  line-height :22px;
+  margin-bottom: 1rem;
 }
