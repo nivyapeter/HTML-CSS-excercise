@@ -188,3 +188,36 @@ body {
   line-height :22px;
   margin-bottom: 1rem;
 }
+#about {
+  background: #fff;
+  background-size: cover;
+  position: relative;
+  padding:80px 0;
+}
+.abt_img_1 {
+  width:200px;
+  border-style:none;
+  background-image: url(./img/abt_img_1.png);
+  background-position: 50% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-float img:nth-child(1) {
+  left:0;
+  top:50px;
+}
+.abt_img_2 {
+  width:130px;
+  border-style:none;
+  background-image: url(./img/abt_img_2.png);
+}
+.abt_img_3 {
+  width:200px;
+  border-style:none;
+  background-image: url(./img/abt_img_3.png);
+}
+.abt_img_4 {
+  width:170px;
+  border-style:none;
+  background-image: url(./img/abt_img_4.png);
+}
