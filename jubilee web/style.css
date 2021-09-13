@@ -59,7 +59,7 @@ body {
   padding-right:8px;
   padding-bottom:10px;
   display: inline-block;
-  color:black;
+  color:white;
   font-size: 14px;
   outline:0;
 }
@@ -96,10 +96,9 @@ body {
 .banner_image_float img:nth-child(1) {
   top:45px;
   position:absolute;
-  transform:rotate(50deg);
   transition-duration: 1s;
 }
-.banner_image_float img:nth-child(1) :hover {
+.banner_image_float img:nth-child(1):hover {
   transition-duration: 1s;
   transform:rotate(50deg);
 }
@@ -118,23 +117,33 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(./img/banner.jpg);
-  background-position: 50% 50%
+  background-position: 50% 50%;
+  position: relative;
 }
 .banner_image_left {
   visibility:visible;
   animation-name:fadeInLeft;
   width:220px;
   border-style: none;
+  left:39px;
 }
 .banner_image_float img:nth-child(2) {
   top:249px;
   bottom:32px;
   transition-duration: 1s;
 }
+.banner_image_float img:nth-child(2):hover {
+  transition-duration: 1s;
+  transform:rotate(50deg);
+}
 .banner_image_float img:nth-child(3) {
   right:0;
   top:0;
   transition-duration: 1s;
+}
+.banner_image_float img:nth-child(3):hover {
+  transition-duration: 1s;
+  transform:rotate(50deg);
 }
 .banner_image_up{
   visibility:visible;
@@ -147,6 +156,14 @@ body {
   top:195px;
   transition-duration: 1s;
 }
+.banner_image_float img:nth-child(4):hover {
+  transition-duration: 1s;
+  transform:rotate(50deg);
+}
 .banner_image_float img {
   position: absolute;
+}
+.content-container {
+  color:white;
+  position:absolute;
 }
