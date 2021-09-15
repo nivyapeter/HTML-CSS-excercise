@@ -29,9 +29,14 @@ body {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+  background: whitesmoke;
+  height:12vh;
 }
 .logomain {
   margin-right:66px;
+}
+.logomain img {
+  height:12vh;
 }
 .navbar {
   display: flex !important;
@@ -59,7 +64,7 @@ body {
   padding-right:8px;
   padding-bottom:10px;
   display: inline-block;
-  color:white;
+  color:black;
   font-size: 14px;
   outline:0;
 }
@@ -222,10 +227,18 @@ body {
   top:33rem;
 
 }
+
 .abt_img_3 {
   width:200px;
   border-style:none;
   left:70rem;
+}
+.image-float img:nth-child(3) {
+  left:70rem;
+}
+.image-float img:nth-child(3):hover {
+
+  top:20px;
 }
 .abt_img_4 {
   width:170px;
@@ -233,6 +246,52 @@ body {
   left:70rem;
   top:33rem;
 }
+.image-float img:nth-child(4) {
+  left:70rem;
+  top:33rem;
+}
+.image-float img:nth-child(4):hover {
+
+  top:20px;
+}
 .image-float img {
   position: absolute;
 } 
+.centertext {
+  margin-left: auto;
+  margin-right:auto;
+}
+.text-box {
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.17);
+  border-radius: 3px;
+  background: #fff;
+  padding:60px 50px;
+  width:97vh;
+  position:relative;
+  height:89vh;
+  left:394px;
+}
+.text-box h2 {
+  color:#851c34;
+  font-weight:600;
+  font-size:2rem;
+  margin-bottom:.5rem;
+  line-height:1.2;
+}
+.container-1 {
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.fixarea {
+  background-image: url(http://www.jubileerestaurant.in/img/fix_bg_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:70px 0;
+  text-align: center;
+}
+.fixarea h1 {
+  font-size:65px;
+  color:#fff;
+  font-weight:500;
+}
