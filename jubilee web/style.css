@@ -291,11 +291,11 @@ body {
   text-align: center;
   
 }
-/* .fixarea h1 {
+.fixarea h1 {
   font-size:65px;
   color:#fff;
   font-weight:500;
-} */
+}
 .fixarea h3{
   font-size: 36px;
   color: #ddaa12;
