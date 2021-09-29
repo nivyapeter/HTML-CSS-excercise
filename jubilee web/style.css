@@ -29,9 +29,14 @@ body {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+  background: whitesmoke;
+  height:12vh;
 }
 .logomain {
   margin-right:66px;
+}
+.logomain img {
+  height:12vh;
 }
 .navbar {
   display: flex !important;
@@ -102,20 +107,203 @@ body {
 .banner_image_float img:nth-child(1) {
   left:0;
   top:45px;
+  position:absolute;
   transition-duration: 1s;
+}
+.banner_image_float img:nth-child(1):hover {
+  transition-duration: 1s;
+  transform:rotate(50deg);
+}
+.intro-carousel {
+  display: block;
+  z-index:8;
+  background:#443a3b;
+  width:100%;
+  position: relative;
+
+}
+.item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./img/banner.jpg);
+  background-position: 50% 50%;
+  position: relative;
+}
+.banner_image_left {
+  visibility:visible;
+  animation-name:fadeInLeft;
+  width:220px;
+  border-style: none;
+  left:39px;
 }
 .banner_image_float img:nth-child(2) {
   left: 45px;
   bottom: 32px;
   transition-duration: 1s;
 }
+.banner_image_float img:nth-child(2):hover {
+  transition-duration: 1s;
+  transform:rotate(50deg);
+}
 .banner_image_float img:nth-child(3) {
   right: 0;
   top: 0;
   transition-duration: 1s;
 }
-/* .banner_image_float img:nth-child(4) {
-  right: 97px;
-  bottom: 120px;
+.banner_image_float img:nth-child(3):hover {
   transition-duration: 1s;
-} */
+  transform:rotate(50deg);
+}
+.banner_image_up{
+  visibility:visible;
+  animation-name:fadeInUp;
+  width:211px;
+}
+.banner_image_float img:nth-child(4) {
+  right:115px;
+  /* bottom:120px; */
+  top:195px;
+  transition-duration: 1s;
+}
+.banner_image_float img:nth-child(4):hover {
+  transition-duration: 1s;
+  transform:rotate(50deg);
+}
+.banner_image_float img {
+  position: absolute;
+}
+.content-container {
+  color:white;
+  position:absolute;
+  top: 181px;
+  left: 548px;
+  text-align: center;
+}
+.heading-1 {
+  font-size: 30px;
+}
+.heading-2 {
+  font-size: 43px;
+  font-weight:400;
+  font-family: poppins;
+  margin-left: -105px;
+}
+.heading-3 {
+  font-weight: 400;
+  margin-top:10px;
+  text-decoration: underline;
+  font-family: poppins;
+}
+.content-container p {
+  font-size: 20px;
+  line-height :22px;
+  margin-bottom: 1rem;
+  margin-top:0;
+
+}
+#about {
+  background: #fff;
+  background-size: cover;
+  position: relative;
+  padding:80px 0;
+}
+.abt_img_1 {
+  width:200px;
+  border-style:none;
+  /* background-image: url(./img/abt_img_1.png); */
+  background-position: 50% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.image-float img:nth-child(1) {
+  left:0;
+  top:50px;
+}
+.image-float img:nth-child(1):hover {
+  left:0;
+  top:60px;
+}
+.abt_img_2 {
+  width:130px;
+  border-style:none;
+  left:0;
+  top:33rem;
+
+}
+
+.abt_img_3 {
+  width:200px;
+  border-style:none;
+  left:70rem;
+}
+.image-float img:nth-child(3) {
+  left:70rem;
+}
+.image-float img:nth-child(3):hover {
+
+  top:20px;
+}
+.abt_img_4 {
+  width:170px;
+  border-style:none;
+  left:70rem;
+  top:33rem;
+}
+.image-float img:nth-child(4) {
+  left:70rem;
+  top:33rem;
+}
+.image-float img:nth-child(4):hover {
+
+  top:20px;
+}
+.image-float img {
+  position: absolute;
+} 
+.centertext {
+  margin-left: auto;
+  margin-right:auto;
+}
+.text-box {
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.17);
+  border-radius: 3px;
+  background: #fff;
+  padding:60px 50px;
+  width:97vh;
+  position:relative;
+  height:89vh;
+  left:394px;
+}
+.text-box h2 {
+  color:#851c34;
+  font-weight:600;
+  font-size:2rem;
+  margin-bottom:.5rem;
+  line-height:1.2;
+}
+.container-1 {
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.fixarea {
+  background-image: url(http://www.jubileerestaurant.in/img/fix_bg_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:70px 0;
+  text-align: center;
+  
+}
+.fixarea h1 {
+  font-size:65px;
+  color:#fff;
+  font-weight:500;
+}
+.fixarea h3{
+  font-size: 36px;
+  color: #ddaa12;
+}
